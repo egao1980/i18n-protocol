@@ -20,6 +20,21 @@
    #:ensure-i18n-backend
    #:require-capability
 
+   #:backend-make-locale
+   #:backend-parse-locale
+   #:backend-available-locales
+   #:backend-accept-language
+   #:backend-make-message-formatter
+   #:backend-parse-message-pattern
+   #:backend-format-message
+   #:backend-make-plural-rules
+   #:backend-plural-category
+   #:backend-load-catalog
+   #:backend-make-message-catalog
+   #:backend-catalog-get
+   #:backend-catalog-has-p
+   #:backend-catalog-locales
+
    ;; locale (BCP 47 / ICU Locale)
    #:locale
    #:make-locale
