@@ -55,6 +55,7 @@
    #:make-message-formatter
    #:message-pattern
    #:message-locale
+   #:message-raw
    #:format-message
    #:format-message-to-string
    #:parse-message-pattern
@@ -63,10 +64,15 @@
    #:plural-category
    #:plural-rules
    #:make-plural-rules
+   #:plural-rules-locale
+   #:plural-rules-type
+   #:plural-rules-raw
 
    ;; catalogs / resource bundles
    #:message-catalog
    #:make-message-catalog
+   #:catalog-locale
+   #:catalog-raw
    #:catalog-get
    #:catalog-has-p
    #:catalog-locales
